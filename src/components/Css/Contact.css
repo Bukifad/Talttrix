@@ -1,0 +1,65 @@
+.footer-container{ 
+width: 1353px;
+height: 542px;
+background: hsl(218, 92%, 9%);
+
+}
+.flex-footer{
+  display: flex;
+/* justify-content: center; */
+justify-content: space-around;
+padding: 107px;
+margin-top: 50px;
+
+
+
+}
+.footer-head{
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+margin-bottom: 16px;
+margin-left: 10px;
+}
+
+
+.social{
+  display: flex;
+  padding: 8px;
+ 
+}
+
+.social img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+} 
+.social p {
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+
+}
+.line{
+  width: 1128px;
+height: 0px;
+border: 1px solid #1E4486;
+margin-left: 156px;
+margin-bottom: 24px;
+
+}
+.copyright{
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+  margin-left: 156px;
+}

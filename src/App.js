@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import MidlleHome from "./components/MidlleHome";
+import About2 from "./components/About2";
+import Service from "./components/Service";
+import Clients from "./components/Clients";
+import Contact from "./components/Contact";
+
+// import { HashRouter, Switch, Route } from "react-router-dom";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <BrowserRouter> */}
+        <Navbar />
+        {/* <Routes> */}
+        <Home/> 
+        {/* </Routes> */}
+        {/* <Routes> */}
+          <MidlleHome/>
+        {/* </Routes> */}
+        {/* <Routes> */}
+        <About/>
+        {/* </Routes> */}
+        {/* <Routes> */}
+        <About2/>
+        {/* </Routes> */}
+        {/* <Routes> */}
+         <Service/>
+        {/* </Routes> */}
+        {/* <Routes> */}
+         <Clients/> 
+        {/* </Routes> */}
+        {/* <Routes> */}
+
+        <Contact/> 
+        {/* </Routes> */}
+      {/* </BrowserRouter> */}
     </div>
   );
 }
